@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #eaf3ff, #ffffff);
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.login-card {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.login-card h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #1E3A8A;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #1E40AF;
+    outline: none;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #1E40AF;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1E40AF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1B3A9E;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #777;
+}
