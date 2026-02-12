@@ -1,98 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.top-header {
+    width: 100%;
+    background: #1E3A8A;
+    padding: 14px 0;
+    text-align: center;
+    color: white;
+    font-size: 14px;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    height: 100vh;
+.header-content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #eaf3ff, #ffffff);
+    gap: 10px;
 }
 
-.container {
-    width: 100%;
-    padding: 20px;
-}
-
-.login-card {
-    max-width: 400px;
-    margin: auto;
+.logo-badge {
     background: white;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-}
-
-.login-card h1 {
-    font-size: 22px;
-    margin-bottom: 25px;
     color: #1E3A8A;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    border: 1px solid #d1d5db;
-    font-size: 14px;
-    transition: 0.3s ease;
-}
-
-input:focus {
-    border-color: #1E40AF;
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.15);
-}
-
-.options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.remember {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 14px;
-    color: #374151;
-}
-
-.options a {
-    text-decoration: none;
-    font-size: 14px;
-    color: #1E40AF;
-}
-
-.options a:hover {
-    text-decoration: underline;
-}
-
-button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    background-color: #1E40AF;
-    color: white;
     font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    transition: 0.2s ease;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
 }
 
-button:hover {
-    background-color: #1B3A9E;
+.logo-text {
+    font-weight: 500;
 }
-
-button:active {
-    transform: scale(0.98);
-}
-
